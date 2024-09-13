@@ -369,3 +369,125 @@ h2 {
   width: 295px;
   height: auto;
 }
+
+/* Tablet */
+@media screen and (min-width: 768px) {
+  /* || MAIN */
+  .main__content {
+    margin: 52px 40px 75.69px 40px;
+    width: 688px;
+    height: 1959.31px;
+  }
+
+  /* || COMBINE-GROUP-1 COLUMN-1 */
+  .content__social-media {
+    width: 688px;
+    height: 324px;
+    padding: 72px 76px;
+  }
+
+  .social-media__title {
+    font: var(--TBT-TEXT-PRESET1);
+    width: 500px;
+  }
+
+  .content__inner {
+    flex-flow: row;
+  }
+
+  .content__manage {
+    width: 328px;
+    height: 247px;
+    padding: 24px 0 24px 24px;
+    overflow: hidden;
+    gap: 54.46px;
+  }
+
+  .manage__title {
+    font: var(--TBT-TEXT-PRESET3);
+    width: 300px;
+  }
+
+  .content__maintain {
+    width: 328px;
+    height: 247px;
+    overflow: hidden;
+    padding: 24px 24px 0 24px;
+  }
+
+  .maintain__title {
+    font: var(--TBT-TEXT-PRESET3);
+    width: 300px;
+  }
+
+  /* || COMBINE-GROUP-1 COLUMN-2 */
+  .content__schedule {
+    width: 688px;
+    height: 496.82px;
+    padding: 32px 164.5px;
+  }
+
+  .schedule__title {
+    font: var(--TBT-TEXT-PRESET3);
+  }
+
+  .content__schedule img {
+    max-width: 357.3px;
+  }
+
+  /* || COMBINE-GROUP-2*/
+  .content__grow-followers {
+    width: 688px;
+    height: 246px;
+    flex-flow: row;
+    padding: 22.89px 81.66px;
+  }
+
+  .grow-followers__title {
+    font: var(--TBT-TEXT-PRESET2);
+    width: 300px;
+    text-align: left;
+  }
+
+  .content__percent1 {
+    width: 688px;
+    height: 131px;
+    flex-flow: row;
+    gap: 0%;
+    padding: 24px;
+  }
+
+  .content__percent1 img {
+    margin-left: 269.07px;
+  }
+
+  .percent1__title {
+    font: var(--TBT-TEXT-PRESET1);
+  }
+
+  /* || GROUP-3*/
+  .content__group3 {
+    flex-flow: row;
+  }
+
+  .content__percent2 {
+    width: 328px;
+    height: 354.5px;
+    padding: 75.07px 24px;
+  }
+
+  .percent2__title {
+    font: var(--TBT-TEXT-PRESET2);
+    width: 280px;
+  }
+
+  .content__write {
+    width: 328px;
+    height: 354.5px;
+  }
+
+  .write__title {
+    font: var(--TBT-TEXT-PRESET2);
+    width: 280px;
+  }
+}
